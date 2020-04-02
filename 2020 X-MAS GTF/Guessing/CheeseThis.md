@@ -17,4 +17,4 @@ revealed this image:
 
 With a litte trial and error we managed to get the flag correctly:
 
-### Flag: `X-MAS{you_are_g00d_w1th_gu3551n}`
+### Flag: `X-MAS{You_are_g00d_w1th_gu3551ng}`
