@@ -13,6 +13,28 @@ Both tecnically work the same.
 Apparently the background was purely random pixels (33% black).
 However if you deleted every pixel but every 3rd per row and column you were left with this.
 
+```python
+from PIL import Image
+
+pixelsize = 10
+
+img = Image.open('scramble.png')
+
+def process():
+    nev = Image.new("RGB", (8880, 360), color=0)
+    for j in range(8880 * 360):
+        if int(j/pixelsize)%3 == 0 and int(int(j/8880)/pixelsize)%3 == 0:
+            nev.putpixel((j%8880, int(j/8880)), img.getpixel((j%8880, int(j/8880))))
+        else:
+            nev.putpixel((j%8880, int(j/8880)), (255, 255, 255))
+    nev.save('result.png')
+            
+process()
+```
+![](result.png)
+
+If you clean this up you apparently get this:
+
 ![](flag.png)
 *Milkdrops solution - at least he provided it*
 
