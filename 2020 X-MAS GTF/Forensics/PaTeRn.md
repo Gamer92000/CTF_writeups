@@ -3,7 +3,7 @@
 ![](PaTeRn.png)
 
 Even though I was not able to solve this challenge in time I will still provide two possible ways to find the flag here.
-Both tecnically work the same.
+Both technically work the same.
 
 ![](scramble.png)
 *scramble.png*
