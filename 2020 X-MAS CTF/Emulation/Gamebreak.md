@@ -47,7 +47,7 @@ As there were 5301 images in the entire video this took quite some time to conve
 
 As each image was it's own programm they could be individually compiled and later be concatenated. Now I just had to build a fancy intro consisting of some logos fading in and out like on those early consoles. I chose my team's logo followed by HTsP's logo and lastly the Half Life 3 logo. On this I made the text `x to start` blink by simply jumping between the two images with and without the text. Then I waited for the user to press `x` and started playing the video. After the video finished it would simply restart the ROM and yet again go through all to logos to the start screen.
 
-![](preview.gif =300x)
+![](preview.gif)
 
 After the voting ended and I came in second just after `Paint by Quphoria` I got a lovely message from `trupples`.
 
